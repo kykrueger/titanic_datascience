@@ -27,6 +27,10 @@ setup(
         'pandas>=0.20.3',
         'scikit-learn>=0.19.0',
         'scipy>=0.19.1',
-'matplotlib>=2.1.0',
-    ]
+        'matplotlib>=2.1.0',
+        'pytest>=3.2.3',
+        'pytest-runner>=2.12.1',
+    ],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
 )
