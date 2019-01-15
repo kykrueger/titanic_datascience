@@ -30,7 +30,12 @@ setup(
         'matplotlib>=2.1.0',
         'pytest>=3.2.3',
         'pytest-runner>=2.12.1',
+        'click>=6.7',
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
+    entry_points='''
+        [console_scripts]
+        titanic_analysis=titanic.command_line:titanic_analysis
+    '''
 )

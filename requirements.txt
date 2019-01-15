@@ -6,6 +6,7 @@ blas=1.0=mkl
 bleach=3.0.2=py36_0
 ca-certificates=2018.03.07=0
 certifi=2018.11.29=py36_0
+click=6.7=py36_0
 cycler=0.10.0=py36_0
 dbus=1.13.2=hc3f9b76_0
 decorator=4.3.0=py36_0
